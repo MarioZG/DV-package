@@ -43,7 +43,7 @@
 
     <!-- Amkae sure npm modules are installed, use common folder  higere ih herachy-->
 
-  <Target Name="NpmRunBuild" BeforeTargets="VsTsc">
+  <Target Name="NpmRunBuild" BeforeTargets="BeforeBuild">
     <Exec Command="npm install --prefix ../../ .\WebResources" />
   </Target>
 
