@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{e7130374-652d-f011-8c4d-6045bd0da0de}</WebResourceId>
+  <Name>pxc_/webresources/account/forms/mainForm.js</Name>
+  <DisplayName>/webresources/account/forms/mainForm.js</DisplayName>
+  <Description>dd</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/pxc_webresourcesaccountformsmainFormjsE7130374-652D-F011-8C4D-6045BD0DA0DE</FileName>
+</WebResource>

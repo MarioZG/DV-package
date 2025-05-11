@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "webresources": "file:Solutions/WebResourcessolution/WebResources"
+  }
+}
