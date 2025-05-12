@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Plugins.With.Namespace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=738e9c0db5288b13" PluginAssemblyId="d2e43e17-7de4-467b-a8d5-01968d9d41d1" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/PluginsWithNamespace-D2E43E17-7DE4-467B-A8D5-01968D9D41D1/PluginsWithNamespace.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Plugins.With.Namespace.Plugin1, Plugins.With.Namespace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=738e9c0db5288b13" PluginTypeId="5ccce32e-c15b-4014-9fd8-8c58a98a9c55" Name="Plugins.With.Namespace.Plugin1">
+      <FriendlyName>5615d98c-0c1c-42ed-aee9-bea674e33b41</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

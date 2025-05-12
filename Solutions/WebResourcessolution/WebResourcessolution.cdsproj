@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project  Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PowerAppsTargetsPath>$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\PowerApps</PowerAppsTargetsPath>
   </PropertyGroup>
@@ -10,12 +10,13 @@
   <Import Project="$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Solution.props" Condition="Exists('$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Solution.props')" />
 
   <PropertyGroup>
-    <ProjectGuid>6b0ba715-aead-4fc5-870b-f45e9197cab2</ProjectGuid>
-    <TargetFramework>net6.0</TargetFramework>
+    <ProjectGuid>30319a90-30e4-4cd2-9d28-af62d82993ab</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <!--Remove TargetFramework when this is available in 16.1-->
+    <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <SolutionRootPath>src</SolutionRootPath>
   </PropertyGroup>
-
   <!-- 
     Solution Packager overrides, un-comment to use: SolutionPackagerType (Managed, Unmanaged, Both)
     Solution Localization Control, if you want to enabled localization of your solution, un-comment SolutionPackageEnableLocalization and set the value to true. - Requires use of -loc flag on Solution Clone or Sync
@@ -68,6 +69,19 @@
     <Content Include="$(SolutionPackageZipFilePath)">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  
+
+   <Target Name="Rename" AfterTargets="ProcessCdsProjectReferencesOutputs">
+
+        <Message Text="DestFiles:test 1111"/>
+    <Move SourceFiles="obj\Debug\Metadata\PluginAssemblies\PluginsWithNamespace-D2E43E17-7DE4-467B-A8D5-01968D9D41D1\Plugins.With.Namespace.dll" DestinationFiles="obj\Debug\Metadata\PluginAssemblies\PluginsWithNamespace-D2E43E17-7DE4-467B-A8D5-01968D9D41D1\PluginsWithNamespace.dll"/>
+
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="Plugins\Plugins.csproj" />
+    <ProjectReference Include="Plugins.With.Namespace\Plugins.With.Namespace.csproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

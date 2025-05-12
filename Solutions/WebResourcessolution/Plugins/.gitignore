@@ -4,9 +4,8 @@
 /bin
 /obj
 
+# vs intermediate directory
+/.vs
+
 # MSBuild Binary and Structured Log
 *.binlog
-
-/src/WebResources/pxc_/webresources/**/*.js
-/src/WebResources/pxc_/webresources/**/*.map
-/src/PluginAssemblies /**/*.dll

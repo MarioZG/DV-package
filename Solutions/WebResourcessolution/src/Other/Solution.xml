@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25043.200" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25043.200" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25043.00202">
+<ImportExportXml version="9.2.25043.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25043.202" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25043.00202">
   <SolutionManifest>
     <UniqueName>WebResourcessolution</UniqueName>
     <LocalizedNames>
       <LocalizedName description="WebResourcessolution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>pxc</UniqueName>
@@ -81,6 +81,8 @@
       <RootComponent type="61" schemaName="pxc_/webresources/account/forms/mainForm.js" behavior="0" />
       <RootComponent type="61" schemaName="pxc_/webresources/contact/forms/mainForm.js" behavior="0" />
       <RootComponent type="61" schemaName="pxc_/webresources/account/ribbon.js" behavior="0" />
+      <RootComponent type="91" id="{0d0a9ee5-cd09-48ad-accd-12ebd6ef96ce}" schemaName="Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7c2cc0fcf849baef" behavior="0" />
+      <RootComponent type="91" id="{d2e43e17-7de4-467b-a8d5-01968d9d41d1}" schemaName="Plugins.With.Namespace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=738e9c0db5288b13" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
